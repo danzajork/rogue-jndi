@@ -25,7 +25,7 @@ import com.unboundid.ldap.sdk.ResultCode;
 @LdapMapping(uri = { "/", "/o=reference" })
 public class RemoteReference implements LdapController {
 
-    private String classloaderUrl = "http://" + Config.hostname + ":" + Config.httpPort + "/";
+    private String classloaderUrl = "ftp://" + Config.hostname + ":" + Config.httpPort + "/";
 
     public void sendResult(InMemoryInterceptedSearchResult result, String base) throws Exception {
         Entry e = new Entry(base);

@@ -9,7 +9,7 @@ public class RogueJndi {
             "+-+-+-+-+-+-+-+-+-+"
         );
         Config.applyCmdArgs(args);
-        HttpServer.start();
+        FTPServer.start();
         LdapServer.start();
     }
 }
