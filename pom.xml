@@ -8,6 +8,14 @@
 
     <packaging>jar</packaging>
 
+    <repositories>
+      <repository>
+        <id>my-local-repo</id>
+        <url>file://${project.basedir}/src/main/resources</url>
+      </repository>
+    </repositories>
+
+
     <dependencies>
         <dependency>
             <groupId>com.unboundid</groupId>
@@ -56,6 +64,13 @@
             <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.frohoff</groupId>
+            <artifactId>ysoserial</artifactId>
+            <version>0.0.6</version>
+        </dependency>
+
 
     </dependencies>
 
