@@ -57,6 +57,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.github.frohoff/ysoserial -->
+        <dependency>
+            <groupId>com.github.frohoff</groupId>
+            <artifactId>ysoserial</artifactId>
+            <version>0.0.5</version>
+        </dependency>
     </dependencies>
 
     <properties>
