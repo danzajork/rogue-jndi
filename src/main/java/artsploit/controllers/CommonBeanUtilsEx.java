@@ -14,7 +14,7 @@ import ysoserial.payloads.CommonsBeanutils1;
 import static artsploit.Utilities.serialize;
 
 @LdapMapping(uri = { "/o=commonbeanutils1" })
-public class CommonsBeanutils1 implements LdapController {
+public class CommonBeanUtilsEx implements LdapController {
 
     public void sendResult(InMemoryInterceptedSearchResult result, String base) throws Exception {
 
