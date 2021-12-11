@@ -9,7 +9,7 @@ import com.unboundid.ldap.sdk.ResultCode;
 
 import java.lang.reflect.Method;
 
-import ysoserial.payloads.Hibernate1;
+import ysoserial.payloads.MozillaRhino1;
 
 import static artsploit.Utilities.serialize;
 
