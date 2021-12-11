@@ -67,6 +67,8 @@ Mapping ldap://192.168.1.10:1389/o=websphere2,jar=* to artsploit.controllers.Web
 ### Building
 Java v1.7+ and Maven v3+ required
 ```
+mvn deploy:deploy-file -DgroupId=com.github.frohoff -DartifactId=ysoserial -Dversion=0.0.6 -Durl=file:./local-maven-repo/ -DrepositoryId=local-maven-repo -DupdateReleaseInfo=true -Dfile=src/main/resources/ysoserial-0.0.6-SNAPSHOT-all.jar
+
 mvn package
 ```
 
