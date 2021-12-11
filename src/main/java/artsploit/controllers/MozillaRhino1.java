@@ -14,7 +14,7 @@ import ysoserial.payloads.MozillaRhino1;
 import static artsploit.Utilities.serialize;
 
 @LdapMapping(uri = { "/o=mozillarhino1" })
-public class MozillaRhino1 implements LdapController {
+public class MozillaRhino1Ex implements LdapController {
 
     public void sendResult(InMemoryInterceptedSearchResult result, String base) throws Exception {
 
